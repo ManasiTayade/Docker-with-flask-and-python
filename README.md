@@ -1,6 +1,6 @@
 # RESTful-web-service using DOCKER container in python and flask
  FOLLOWING ARE THE STEPS TO RUN WEB SERVICES:
- #Step 1: Installed Docker Toolbox for Mac/Windows
+ ##Step 1: Installed Docker Toolbox for Mac/Windows
  #Step 2: Created Json database of the name games.json
  Step 3: To implement our data in the form of table we used HTML and CSS for alignments and designs.
  Step 4: Imported Flask libraries and created function to get request from user.
