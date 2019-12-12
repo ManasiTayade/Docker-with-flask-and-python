@@ -23,9 +23,9 @@
  
  Step 11: Open browser and insert IP address along with the port number to display the database created in json.
  
- Step 12: To display welcome page for database we used **192.168.99.100:5000
+ Step 12: To display welcome page for database we used **192.168.99.100:5000**
  
- Step 12: To display entire database we used **192.168.99.100:5000/getgames/
+ Step 12: To display entire database we used **192.168.99.100:5000/getgames/**
  
  Step 13: To display specific id parameter we used **192.168.99.100:5000/getgames/7** (id 7 will be diplayed).
  
