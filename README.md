@@ -25,10 +25,10 @@
  
  Step 12: To display welcome page for database we used **192.168.99.100:5000**
  
- Step 12: To display entire database we used **192.168.99.100:5000/getgames/**
+ Step 13: To display entire database we used **192.168.99.100:5000/getgames/**
  
- Step 13: To display specific id parameter we used **192.168.99.100:5000/getgames/7** (id 7 will be diplayed).
+ Step 14: To display specific id parameter we used **192.168.99.100:5000/getgames/7** (id 7 will be diplayed).
  
- Step 14: To display Type parameter we used **192.168.99.100:5000/getgames/Type/Action** (All games with type action will be displayed from the database)
+ Step 15: To display Type parameter we used **192.168.99.100:5000/getgames/Type/Action** (All games with type action will be displayed from the database)
  
  
