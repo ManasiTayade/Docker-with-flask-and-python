@@ -15,20 +15,20 @@
  
  Step 7: Open Docker terminal
  
- Step 8: Build image in docker container using docker build -t fun-games . (Here, name of the image is fun-games)
+ Step 8: Build image in docker container using **docker build -t fun-games .** (Here, name of the image is fun-games)
  
- Step 9: Run image using docker run -d -p 5000:5000 fun-games (Python uses default port 5000 for execution)
+ Step 9: Run image using **docker run -d -p 5000:5000 fun-games**(Python uses default port 5000 for execution)
  
- Step 10: To check if the image is assigned with a port we used command docker ps -a (This displays the port number)
+ Step 10: To check if the image is assigned with a port we used command **docker ps -a**(This displays the port number)
  
  Step 11: Open browser and insert IP address along with the port number to display the database created in json.
  
- Step 12: To display welcome page for database we used 192.168.99.100:5000
+ Step 12: To display welcome page for database we used **192.168.99.100:5000
  
- Step 12: To display entire database we used 192.168.99.100:5000/getgames/
+ Step 12: To display entire database we used **192.168.99.100:5000/getgames/
  
- Step 13: To display specific id parameter we used 192.168.99.100:5000/getgames/7 (id 7 will be diplayed).
+ Step 13: To display specific id parameter we used **192.168.99.100:5000/getgames/7** (id 7 will be diplayed).
  
- Step 14: To display Type parameter we used 192.168.99.100:5000/getgames/Type/Action (All games with type action will be displayed from the database)
+ Step 14: To display Type parameter we used **192.168.99.100:5000/getgames/Type/Action** (All games with type action will be displayed from the database)
  
  
