@@ -1,30 +1,19 @@
-# RESTful-web-service using DOCKER container
-
-Created a Python RESTful services using Flask and use docker to run this application.                              
-First, docker need to be installed. Link: https://docs.docker.com/toolbox/toolbox_install_mac/                  
-once docker installed we can see docker quick terminal on our system
-
-## Steps
-1. Get inside the app folder in terminal                          
-2. Build the docker image:                                           
-
-      ```bash
-      docker build -t flask-test-sample .
-      ```
-3. once the docker image is created, run the "flask-test-sample" in docker container                                                            
-      ```bash
-      docker run -d -p 5000:5000 flask-test-sample
-      ```
-4.Now, app will run locally. i.e, if it is run on normal terminal, address will be localhost else docker ip address.                   
-  **GET request1**: Go to http://192.168.99.100:5000/getrestaurants/  to list all restaurants data.                               
-  **GET request2**: Go to http://192.168.99.100:5000/getrestaurants/22/ for specific restaurant with id "22" (example: 22)         
-  **GET request3**: Go to http://192.168.99.100:5000/getrestaurants/type/pizza/ for specific restaurants with food type "Pizza" (example: pizza)            
-  
-## COMMANDS (useful)
-1. List all images: *docker images*
-2. List all containers which are running inside the docker: *docker ps*
-3. Stop all running containers: *docker stop $(docker ps -aq)*
-4. Remove all containers: *docker rm $(docker ps -aq)*                    
-5. Remove all docker images: *docker rmi $(docker images -q)*
-
-  
+# RESTful-web-service using DOCKER container in python and flask
+ FOLLOWING ARE THE STEPS TO RUN WEB SERVICES:
+ Step 1: Installed Docker Toolbox for Mac/Windows.
+ Step 2: Created Json database of the name games.json
+ Step 3: To implement our data in the form of table we used HTML and CSS for alignments and designs.
+ Step 4: Imported Flask libraries and created function to get request from user.
+ Step 5: Coding of the web services is implemented in python and flask
+ Step 6: Created a docker file named Dockerfile.
+ Step 7: Open Docker terminal
+ Step 8: Build image in docker container using docker build -t fun-games . (Here, name of the image is fun-games)
+ Step 9: Run image using docker run -d -p 5000:5000 fun-games (Python uses default port 5000 for execution)
+ Step 10: To check if the image is assigned with a port we used command docker ps -a (This displays the port number)
+ Step 11: Open browswer and insert IP address along with the port number to display the database created in json.
+ Step 12: To display welcome page for database we used 192.168.99.100:5000
+ Step 12: To display database we used 192.168.99.100:5000/getgames/
+ Step 13: To display specific id parameter we used 192.168.99.100:5000/getgames/7 (id 7 will be diplayed).
+ Step 14: To display Type parameter we used 192.168.99.100:5000/getgames/Type/Action (All action games from the database will   be diplayed).
+ 
+ 
